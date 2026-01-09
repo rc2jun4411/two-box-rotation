@@ -33,7 +33,10 @@ actions;
 
 2.1 at GitHub https://github.com/rc2jun4411/two-box-rotation,
     create new project "two-box-rotation" with README.md file.
-2.2 VScode, clone repository(click), select repository  "two-box-rotation" from C:\Users\rc2ju\Documents\ThreeJS_coordinate_translation\two_box_rotation\
+2.2 VScode, clone repository(click), select clone fron repository; (there are two repository so far)
+                        select => rc2jun4411/two-two_box_rotation
+                                  rc2jun4411/Echo_Hunt_2.2
+
 
 
 
