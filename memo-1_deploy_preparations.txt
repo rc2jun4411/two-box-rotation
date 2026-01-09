@@ -1,0 +1,37 @@
+ref 1. https://qiita.com/r-ishida/items/58451e201b6dcef894f1
+        VSCodeとgit（gitHub）を連携してみた
+2026-01-09, working.
+folder: C:\Users\rc2ju\Documents\ThreeJS_coordinate_translation\two_box_rotation\
+
+Deploy to Vercel, Preparations
+actions;
+1. VScode, open project(folder) "two-box-rotatio" 
+1.1 terminal >git init
+    res: なし
+1.2 terminal >git add .
+    res:
+    warning message; warning: in the working copy of 'node_modules/three/src/nodes/code/FunctionCallNode.js', 
+    LF will be replaced by CRLF the next time Git touches it <= 無視してOKです。
+1.3 terminal >git commit -m "first commit"  
+    res:
+     create mode 100644 node_modules/vite/types/metadata.d.ts
+    create mode 100644 node_modules/vite/types/package.json
+    create mode 100644 public/music/suzume_no_tojimari.mp3  他多数(project内のfile全てに)
+1.4 terminal >git branch -M main
+    res: なし(既にmainブランチにいる場合は何も起こりません。)
+    
+1.5 terminal >git remote add two-box-rotating https://github.com/rc2jun4411
+    res: なし
+1.6 terminal >git push --set-upstream two-box-rotation main
+    res:
+    fatal: 'two-box-rotation' does not appear to be a git repository
+    fatal: Could not read from remote repository.
+
+    Please make sure you have the correct access rights
+    and the repository exists.
+
+1.7 
+
+
+
+
