@@ -36,8 +36,31 @@ actions;
 2.2 VScode, clone repository(click), select clone fron repository; (there are two repository so far)
                         select => rc2jun4411/two-two_box_rotation
                                   rc2jun4411/Echo_Hunt_2.2
+2.3 deploy project two-box-rotation(folder), then terminal >npx vite
+    res:
+    ➜  Network: use --host to expose
+    ➜  press h + enter to show help
+ (!) Failed to run dependency scan. Skipping dependency pre-bundling. Error: The following dependencies are imported but could not be resolved:
+   three (imported by C:/Users/rc2ju/Documents/ThreeJS_coordinate_translation/two-box-rotation/main.js)
+  three/examples/jsm/controls/OrbitControls.js (imported by C:/Users/rc2ju/Documents/ThreeJS_coordinate_translation/two-box-rotation/main.js)
+  three/examples/jsm/postprocessing/EffectComposer.js (imported by C:/Users/rc2ju/Documents/ThreeJS_coordinate_translation/two-box-rotation/main.js)
+  three/examples/jsm/postprocessing/RenderPass.js (imported by C:/Users/rc2ju/Documents/ThreeJS_coordinate_translation/two-box-rotation/main.js)
+  three/examples/jsm/postprocessing/AfterimagePass.js (imported by C:/Users/rc2ju/Documents/ThreeJS_coordinate_translation/two-box-rotation/main.js)
 
+Are they installed?
+    at file:///C:/Users/rc2ju/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/config.js:31903:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///C:/Users/rc2ju/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/config.js:34111:15
 
+2.4 terminal >npm install three
+    res:
+    added 1 package in 7s
+2.5 terminal >npx vite
+    res:
+    VITE v7.3.1  ready in 327 ms
 
-
-
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+2.6 at browser Edge, localhost:5173 shown two-box-rotating, click then start song music. ok !!
+  
