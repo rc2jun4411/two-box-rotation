@@ -63,4 +63,8 @@ Are they installed?
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
 2.6 at browser Edge, localhost:5173 shown two-box-rotating, click then start song music. ok !!
-  
+
+3.1 GitHub repositort操作 at VScode 左側のメニュー３番目をclick,
+    staged Changes "+" click, type message like "2nd commit" then click Commit button
+    confirmed GRAPH "2nd commit"
+    repeat 5th commit, whenever change file or add file or delete file.
