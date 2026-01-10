@@ -70,7 +70,19 @@ Are they installed?
     repeat 5th commit, whenever change file or add file or delete file.
     click "sync change button"
     vite buildをやってみた。 project内にfolder distができた。
-    9th commitまで実施
+    PS C:\Users\rc2ju\Documents\ThreeJS_coordinate_translation\two-box-rotation> npx vite build
+vite v7.3.1 building client environment for production...
+✓ 15 modules transformed.
+dist/index.html                  0.42 kB │ gzip:   0.29 kB
+dist/assets/index-DCmCfuFg.js  531.39 kB │ gzip: 134.65 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.01s
+    12th commitまで実施
+
 3.2 Vercelでimport okそう？
 3.3 Vercel, Deployしたが、error "Error: Command "vite build" exited with 127" 
     see Vercel to deploy-6_vite-build-failed.postprocessing
