@@ -69,4 +69,8 @@ Are they installed?
     confirmed GRAPH "2nd commit"
     repeat 5th commit, whenever change file or add file or delete file.
     click "sync change button"
-    
+    vite buildをやってみた。 project内にfolder distができた。
+    9th commitまで実施
+3.2 Vercelでimport okそう？
+3.3 Vercel, Deployしたが、error "Error: Command "vite build" exited with 127" 
+    see Vercel to deploy-6_vite-build-failed.postprocessing
